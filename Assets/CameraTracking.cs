@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraTracking : MonoBehaviour
 {
-    public GameObject targetChar;
+    public GameObject target;
   
 
     // Start is called before the first frame update
@@ -16,7 +16,7 @@ public class CameraTracking : MonoBehaviour
     // Update is called once per frame
     void FixedUpdate()
     {
-        this.GetComponent<Transform>().transform.LookAt(targetChar.transform);
+        this.GetComponent<Transform>().transform.LookAt(target.transform);
 
     }
 }
