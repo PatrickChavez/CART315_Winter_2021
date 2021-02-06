@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class raycast : MonoBehaviour
+public class Raycast : MonoBehaviour
 {
     public Camera maincamera;
     public GameObject prefab;
